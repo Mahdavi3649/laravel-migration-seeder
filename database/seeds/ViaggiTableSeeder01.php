@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Database\Seeder;
+
 use App\Viaggio;
 
-class ViaggioTableSeeder extends Seeder
+class ViaggiTableSeeder01 extends Seeder
 {
     /**
      * Run the database seeds.
@@ -44,12 +45,10 @@ class ViaggioTableSeeder extends Seeder
                 'tour' => 'Camel',
             ]
 
-
-
         ];
 
         foreach ($viaggi as $viaggio) {
-            
+
             $new_viaggio = new Viaggio();
             $new_viaggio->price = $viaggio['price'];
             $new_viaggio->place = $viaggio['place'];

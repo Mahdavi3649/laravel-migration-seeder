@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use ViaggioTableSeeder;
+use ViaggiTableSeeder01;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +11,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(ViaggioTableSeeder::class);
+        $this->call(ViaggiTableSeeder01::class);
     }
 }
