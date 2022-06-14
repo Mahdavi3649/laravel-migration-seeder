@@ -6,10 +6,10 @@
 <div class="p-5 bg-light">
     <div class="container">
         <h2 class="display-3 fw-bolder">Agenzia Turistica</h2>
-        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore pariatur est magni ratione fugiat nam culpa adipisci molestiae commodi nesciunt.</p>
+        <h6 class="lead text-primary">Discover experiences & tours</h6>
         <hr class="my-2">
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Visit more...</a>
+            <a class="btn btn-warning btn-lg" href="Jumbo action link" role="button">Visit more...</a>
         </p>
     </div>
 </div>
