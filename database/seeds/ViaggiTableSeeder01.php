@@ -15,6 +15,7 @@ class ViaggiTableSeeder01 extends Seeder
     {
         $viaggi = [
             [
+                'id' => 1,
                 'price' => 2500,
                 'place' => 'Barcelona',
                 'description' => 'si trova un paradiso inesplorato: è uno degli ultimi angoli d’Europa in grado di catturare i viaggiatori con il suo fascino esotico fuori dal tempo. La varietà di paesaggi, in una terra così piccola',
@@ -24,7 +25,8 @@ class ViaggiTableSeeder01 extends Seeder
                 'travel_style' => 'Classic',
                 'tour' => 'Cruise',
             ],
-            [
+            [  
+                  'id' => 2,
                 'price' => 2000,
                 'place' => 'Madeira',
                 'description' => 'si trova un paradiso inesplorato: è uno degli ultimi angoli d’Europa in grado di catturare i viaggiatori con il suo fascino esotico fuori dal tempo. La varietà di paesaggi, in una terra così piccola',
@@ -35,6 +37,7 @@ class ViaggiTableSeeder01 extends Seeder
                 'tour' => 'Car',
             ],
             [
+                'id' => 3,
                 'price' => 1500,
                 'place' => 'Egypt',
                 'description' => 'si trova un paradiso inesplorato: è uno degli ultimi angoli d’Europa in grado di catturare i viaggiatori con il suo fascino esotico fuori dal tempo. La varietà di paesaggi, in una terra così piccola',
@@ -50,6 +53,7 @@ class ViaggiTableSeeder01 extends Seeder
         foreach ($viaggi as $viaggio) {
 
             $new_viaggio = new Viaggio();
+            $new_viaggio->id = $viaggio['id'];
             $new_viaggio->price = $viaggio['price'];
             $new_viaggio->place = $viaggio['place'];
             $new_viaggio->description = $viaggio['description'];
