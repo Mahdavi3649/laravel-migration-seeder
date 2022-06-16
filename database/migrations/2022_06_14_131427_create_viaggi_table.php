@@ -14,7 +14,7 @@ class CreateViaggiTable extends Migration
     public function up()
     {
         Schema::create('viaggi', function (Blueprint $table) {
-            $table->integer('id')->unsigned();
+            $table->id();
             $table->decimal('price', 6, 2);
             $table->string('place', 50);
             $table->text('description');

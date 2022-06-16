@@ -33,6 +33,7 @@
             <h5> type:  {{ $viaggio->travel_style }}</h5>
             <p> by: {{ $viaggio->tour }} </p>
             <p>  {{ $viaggio->description }} </p>
+            <button class="btn btn-primary"><a href=""></a>Scopri</button>
         </div>
 
         @endforeach
